@@ -1,0 +1,29 @@
+.imagen {
+  transition: transform 0.3s ease; /* Transición suave para el efecto */
+}
+
+.imagen:hover {
+  transform: scale(1.2); /* Escala la imagen al 120% de su tamaño original */
+}
+/* Estilo para el texto normal */
+.texto {
+background-color: darkgreen;
+    color: aquamarine;
+    transition: color 0.3s ease;
+}
+
+/* Estilo para el texto cuando el mouse pasa por encima */
+.texto:hover {
+    color: red;
+background-color: darkred;
+}
+/* Estilo para la imagen normal */
+.imagen2 {
+    filter: none;
+    transition: filter 0.3s ease;
+}
+
+/* Estilo para la imagen cuando el mouse pasa por encima */
+.imagen2:hover {
+    filter: hue-rotate(90deg);
+}

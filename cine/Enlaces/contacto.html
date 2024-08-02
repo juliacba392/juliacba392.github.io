@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <style>
+        body {
+            background-color: lightgray; 
+        }
+        h1 {
+            color: black;
+            text-align: center;
+        }
+        h4 {
+            color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+    <h4>Aca nos puedes contar algun problema que te halla pasado en la pagina o darnos algun comentario sobre como podriamos mejor nustros servicios.</h4>
+    <hr>
+    Nombre<br>
+    <form action="mailto:axelbmachuca014@gmail.com" method="post" enctype="text/plain">
+        <label>
+            <input type="text" maxlength="120" size="25" >
+        </label>
+        <hr>
+        Correo<br>
+        <input type="text" maxlength="200" name="correo">
+        <hr>
+        Consulta<br>
+        <textarea maxlength="300" ></textarea>
+        <hr>
+        <input type="submit" value="Enviar"></button>
+    </form>
+</body>
+</html>
